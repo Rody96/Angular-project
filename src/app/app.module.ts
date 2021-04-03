@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { FirstComponentComponent } from './first-component/first-component.component';
 import { AppareilComponent } from './appareil/appareil.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { AppareilService } from './services/appareil.service';
@@ -34,7 +33,6 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    FirstComponentComponent,
     AppareilComponent,
     AuthComponent,
     AppareilViewComponent,
